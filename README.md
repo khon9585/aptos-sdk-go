@@ -1,8 +1,4 @@
 # aptos-sdk-go
-Aptos SDK for Golang
-
-
-[![Aptos RPC](https://img.shields.io/badge/Aptos-v1.2-green)](https://fullnode.mainnet.aptoslabs.com/v1/spec#/) [![Go Build status](https://github.com/0x6368616e67/aptos-sdk-go/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/0x6368616e67/aptos-sdk-go/actions/workflows/build.yml)[![Test status](https://github.com/0x6368616e67/aptos-sdk-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/0x6368616e67/aptos-sdk-go/actions/workflows/ci.yml) [![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)](https://pkg.go.dev/github.com/0x6368616e67/aptos-sdk-go) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/0x6368616e67/aptos-sdk-go/blob/main/LICENSE)
 
 `aptos-sdk-go` is a golang sdk for [Aptos](https://aptoslabs.com/). Which contains 
 all [RPC API](https://fullnode.mainnet.aptoslabs.com/v1/spec#/) with `Client` and some operation 
@@ -12,7 +8,7 @@ for `Account` object such as `Transfer`, `Balance` etc...
 
 Add SDK Dependencies
 
-    $ go get -u  github.com/0x6368616e67/aptos-sdk-go
+    $ go get -u  github.com/khon9585/aptos-sdk-go
 
 A "Alice and Bob" example  demonstrate two user Alice and Bob.
 each of them faucet 10000 coin first. and then Alice transfer 
@@ -28,7 +24,7 @@ Here is the code
         "net/http"
         "time"
 
-        aptos "github.com/0x6368616e67/aptos-sdk-go"
+        aptos "github.com/khon9585/aptos-sdk-go"
     )
 
     var (
